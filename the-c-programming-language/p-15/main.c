@@ -6,7 +6,7 @@ int main() {
     float fahr, celsius;
     int lower, upper, step;
 
-    lower = 0;      /* 温度表の上限 */
+    lower = 0;      /* 温度表の下限 */
     upper = 300;    /* 上限 */
     step  = 20;     /* きざみ */
     fahr  = lower;
