@@ -1,24 +1,12 @@
 #include <stdio.h>
 
 int main() {
-//     int c = getchar();
-// 
-//     while (c != EOF) {
-//         // getchar() != EOF の時の値
-//         printf("%d", c);
-//         c = getchar();
-//     }
-//     // getchar() == EOF の時の値
-//     printf("%d", c);
-// 
-//     return 0;
+    int c;
 
-    int c = getchar();
-
-    if (c != EOF) {
-        printf("%d", getchar());
+    if ((c = getchar()) != EOF) {
+        printf("%d\n", c);
     }
 
-    return 0;
+    printf("%d - at EOF\n", c);
 }
 
